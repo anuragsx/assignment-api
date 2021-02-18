@@ -16,6 +16,6 @@ $ rails db:seed -> just to create a sample seed
 
 rails s
 
-http://localhost:3000/notifications/1
+follow the url to see the jason for existing feed (just to validate) http://localhost:3000/notifications/1
 
 
