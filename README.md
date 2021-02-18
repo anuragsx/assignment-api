@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ruby version  - 3.0.0
 
-Things you may want to cover:
+rails version - 6.1.3
 
-* Ruby version
+steps to setup -
 
-* System dependencies
+cd project_root
 
-* Configuration
+bundle install
 
-* Database creation
+$ rails db:migrate
 
-* Database initialization
+$ rails db:seed -> just to create a sample seed
 
-* How to run the test suite
+rails s
 
-* Services (job queues, cache servers, search engines, etc.)
+http://localhost:3000/notifications/1
 
-* Deployment instructions
 
-* ...
